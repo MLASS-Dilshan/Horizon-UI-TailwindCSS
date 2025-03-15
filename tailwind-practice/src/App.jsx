@@ -1,10 +1,13 @@
 import React from "react";
+import Header from "./components/Landing Page/Header";
+import Hero from "./components/Landing Page/Hero";
 
 const App = () => {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline">Horizon UI!</h1>
-    </div>
+    <>
+      <Header />
+      <Hero />
+    </>
   );
 };
 
